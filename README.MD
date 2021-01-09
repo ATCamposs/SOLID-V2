@@ -10,4 +10,8 @@
  Ao encapsular o acesso a determinados dados, liberando acesso apenas ao necessário, os objetos da nossa classe se tornam mais fáceis de serem utilizados.
 
 
+ - Uma abstração é menos propensa a modificações, então a quantidade de abstrações é proporcional ao nivel de maturidade necessário para não se ter tantas dependencias no sistema.
+
+ É fato que, se estamos organizando o nosso código, seguindo as recomendações da orientação a objetos, algum acoplamento acontecerá. Algumas classes precisarão de outras, para que não tenham muitas responsabilidades. Cabe a nós medir quando faz sentido adicionar tal acoplamento com as dependências e como depender do que é seguro, ao invés de classes concretas.
+ 
  
