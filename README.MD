@@ -26,3 +26,7 @@
         Acoplamento nem sempre é ruim, e que é impossível criar um sistema sem nenhum acoplamento
         Devemos controlar o nível de acoplamento na nossa aplicação (falaremos mais sobre isso)
 
+
+Single Responsibility Principle
+"Uma classe só deveria ter um único motivo para mudar"
+Sua classe/método não deve ter mais de um motivo para ser modificada a não ser que sua regra de negócio mude !!
