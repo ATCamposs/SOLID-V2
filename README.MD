@@ -31,7 +31,9 @@ Single Responsibility Principle
 "Uma classe só deveria ter um único motivo para mudar"
 Sua classe/método não deve ter mais de um motivo para ser modificada a não ser que sua regra de negócio mude !!
 
+
 Open Closed Principle
+
 "Entidades de software(classes, módulos, funções, etc) devem ser abgertas para expansão, porém fechadas para modificação".
 Garantir que cada ação/responsabilidade esteja na classe correta faz com que você necessite repetir muito menos código, além de reduzir as alterações nos códigos já criados.
 
@@ -41,3 +43,13 @@ Garantir que cada ação/responsabilidade esteja na classe correta faz com que v
         Isso significa que devemos poder criar novas funcionalidades e estender o sistema sem precisar modificar muitas classes já existentes
     
     Uma classe que tende a crescer "para sempre" é uma forte candidata a sofrer alguma espécie de refatoração
+
+"Seja q(x) uma propriedade que se pode provar do objeto x do tipo T. Então, q(y) também é possivel provar para o objeto y do tipo S, sendo S um subtipo de T.
+(Classes filhas nunca deveriam infringir as definições de tipo classe pai.)
+
+    Embora a assinatura de um método esteja sendo respeitada em uma herança, ainda assim podemos estar quebrando algum contrato
+
+    O Princípio de Substituição de Liskov (LSP) diz que devemos poder substituir classes base por suas classes derivadas em qualquer lugar, sem problema
+
+    Não devemos alterar um comportamento de um método estendido, mesmo que a assinatura seja mantida
+
