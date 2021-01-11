@@ -44,6 +44,9 @@ Garantir que cada ação/responsabilidade esteja na classe correta faz com que v
     
     Uma classe que tende a crescer "para sempre" é uma forte candidata a sofrer alguma espécie de refatoração
 
+
+Liskov Substitution Principle
+
 "Seja q(x) uma propriedade que se pode provar do objeto x do tipo T. Então, q(y) também é possivel provar para o objeto y do tipo S, sendo S um subtipo de T.
 (Classes filhas nunca deveriam infringir as definições de tipo classe pai.)
 
@@ -53,3 +56,35 @@ Garantir que cada ação/responsabilidade esteja na classe correta faz com que v
 
     Não devemos alterar um comportamento de um método estendido, mesmo que a assinatura seja mantida
 
+
+Interface Segregation Principle
+
+"Uma classe não pode ser forçada a depender de métodos que ela não utilizará".
+Uma classe não deve ser obrigada a implementar um método de determinada interface, se ele não será útil. Para isso, uma interface deverá ser extraída apenas com os métodos necessários.
+
+
+Dependency Inversion Principle.
+
+"Abstrações não devem depender de implementações. Implementações devem depender de abstrações".
+
+
+
+É mais interessante e mais seguro para o nosso código depender de interfaces (classes abstratas, assinaturas de métodos e interfaces em si) do que das implementações de uma classe
+
+As interfaces são menos propensas a sofrer mudanças enquanto implementações podem mudar a qualquer momento.
+
+O Princípio de Inversão de Dependência (DIP) diz que implementações devem depender de abstrações e abstrações não devem depender de implementações
+
+As interfaces devem definir apenas os métodos que fazem sentido para seu contexto
+
+Uma classe pode implementar diversas interfaces
+
+O Princípio de Segregação de Interfaces (ISP) diz que uma classe não deve ser obrigada a implementar um método que ela não precisa;
+
+
+Os conceitos aprendidos neste treinamento formam o acrônimo SOLID
+    Single Responsibility Principle
+    Open Closed Principle
+    Liskov Substituition Principle
+    Interface Segregation Principle
+    Dependency Inversion Principle
