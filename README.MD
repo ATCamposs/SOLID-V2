@@ -30,3 +30,14 @@
 Single Responsibility Principle
 "Uma classe só deveria ter um único motivo para mudar"
 Sua classe/método não deve ter mais de um motivo para ser modificada a não ser que sua regra de negócio mude !!
+
+Open Closed Principle
+"Entidades de software(classes, módulos, funções, etc) devem ser abgertas para expansão, porém fechadas para modificação".
+Garantir que cada ação/responsabilidade esteja na classe correta faz com que você necessite repetir muito menos código, além de reduzir as alterações nos códigos já criados.
+
+    Cada classe deve conhecer e ser responsável por suas próprias regras de negócio
+
+    O princípio Aberto/Fechado (OCP) diz que um sistema deve ser aberto para a extensão, mas fechado para a modificação
+        Isso significa que devemos poder criar novas funcionalidades e estender o sistema sem precisar modificar muitas classes já existentes
+    
+    Uma classe que tende a crescer "para sempre" é uma forte candidata a sofrer alguma espécie de refatoração
