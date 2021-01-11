@@ -1,8 +1,8 @@
- - Tomar cuidado com a coesão de uma classe.
+Tomar cuidado com a coesão de uma classe.
   Cada classe deve ser responsável por apenas uma coisa, e deve executar esta tarefa muito bem.
 
 
- - O encapsulamento sempre deve ser respeitado,
+O encapsulamento sempre deve ser respeitado,
  as pessoas não precisam saber como sua implementação funciona, ela deve ser encapsulada em uma classe/método de um jeito que seja possível utilizar essa classe de modo simples.
 
  O fato de criar getters e setters para tudo, na verdade, quebra o encapsulamento da nossa classe.
@@ -27,12 +27,14 @@
         Devemos controlar o nível de acoplamento na nossa aplicação (falaremos mais sobre isso)
 
 
-Single Responsibility Principle
+**Single Responsibility Principle**
+
 "Uma classe só deveria ter um único motivo para mudar"
 Sua classe/método não deve ter mais de um motivo para ser modificada a não ser que sua regra de negócio mude !!
 
 
-Open Closed Principle
+
+**Open Closed Principle**
 
 "Entidades de software(classes, módulos, funções, etc) devem ser abgertas para expansão, porém fechadas para modificação".
 Garantir que cada ação/responsabilidade esteja na classe correta faz com que você necessite repetir muito menos código, além de reduzir as alterações nos códigos já criados.
@@ -45,7 +47,7 @@ Garantir que cada ação/responsabilidade esteja na classe correta faz com que v
     Uma classe que tende a crescer "para sempre" é uma forte candidata a sofrer alguma espécie de refatoração
 
 
-Liskov Substitution Principle
+**Liskov Substitution Principle**
 
 "Seja q(x) uma propriedade que se pode provar do objeto x do tipo T. Então, q(y) também é possivel provar para o objeto y do tipo S, sendo S um subtipo de T.
 (Classes filhas nunca deveriam infringir as definições de tipo classe pai.)
@@ -57,17 +59,17 @@ Liskov Substitution Principle
     Não devemos alterar um comportamento de um método estendido, mesmo que a assinatura seja mantida
 
 
-Interface Segregation Principle
+**Interface Segregation Principle**
 
 "Uma classe não pode ser forçada a depender de métodos que ela não utilizará".
 Uma classe não deve ser obrigada a implementar um método de determinada interface, se ele não será útil. Para isso, uma interface deverá ser extraída apenas com os métodos necessários.
 
 
-Dependency Inversion Principle.
+**Dependency Inversion Principle.**
 
 "Abstrações não devem depender de implementações. Implementações devem depender de abstrações".
 
-
+**Resumo SOLID**
 
 É mais interessante e mais seguro para o nosso código depender de interfaces (classes abstratas, assinaturas de métodos e interfaces em si) do que das implementações de uma classe
 
@@ -83,8 +85,13 @@ O Princípio de Segregação de Interfaces (ISP) diz que uma classe não deve se
 
 
 Os conceitos aprendidos neste treinamento formam o acrônimo SOLID
+
     Single Responsibility Principle
+    
     Open Closed Principle
+    
     Liskov Substituition Principle
+    
     Interface Segregation Principle
+    
     Dependency Inversion Principle
